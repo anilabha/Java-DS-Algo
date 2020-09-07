@@ -2,7 +2,7 @@ package vectorAndStacks;
 
 import linkedLists.MyLinkedList;
 
-public class MyStack<E> {
+ class MyStack<E> {
 	
 	private MyLinkedList<E> ll = new MyLinkedList<>();
 	
@@ -22,6 +22,12 @@ public class MyStack<E> {
 			throw new Exception("Peeking from empty stack is not allowed");
 		}
 		return ll.getLast();
+	}
+	boolean isEmpty() {
+		if (ll.isEmpty())
+			return true;
+		else
+			return false;
 	}
 	
 

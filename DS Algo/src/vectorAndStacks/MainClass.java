@@ -6,6 +6,13 @@ public class MainClass {
 		
 		MyStack<Integer> stack = new MyStack<>();
 		
+		
+		stack.push(10);
+		stack.push(44);
+		stack.push(10);
+		stack.push(44);
+		
+		
 		int popped = stack.pop();
 		
 		System.out.println(popped);

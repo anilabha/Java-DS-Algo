@@ -4,7 +4,7 @@ package cp;
 public class O_1knapsack {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		int w=10;
 		int []wt= {5,4,6,3};
 		int []val= {10,40,30,50};

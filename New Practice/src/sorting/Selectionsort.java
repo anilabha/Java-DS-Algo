@@ -32,7 +32,7 @@ public class Selectionsort {
 //		
 //		
 //	}
-	 static void ssort1(int arr[]) {
+	 private static void ssort1(int arr[]) {
 		 int n=arr.length;
 			
 		 int i, j, min_idx;
